@@ -13,7 +13,7 @@ chmod +x /usr/local/bin/nxcspray
 # Usage
 ```
 └─$ nxcspray -h, --help                 
-[-] nxcspray <protocols|all> <targets> [auth] [spray-safety] [dump toggles] [-- <raw nxc args>]
+[-] nxcspray <protocols|all> <targets> [auth] [spray-safety] [dump options] [-- <raw nxc args>]
 ```
 
 Example Usage
