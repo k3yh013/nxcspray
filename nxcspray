@@ -3,7 +3,7 @@
 # nxcspray - NetExec (nxc) spraying / enumeration wrapper
 #
 # Runs one nxc invocation per protocol against a target (or target file),
-# forwarding a rich set of auth options and passing through any nxc flag.
+# forwarding auth options and passing through any nxc flag.
 #
 # Usage:
 #   nxcspray <protocols|all> <targets> [auth] [spray-safety] [dump options] [-- <raw nxc args>]
