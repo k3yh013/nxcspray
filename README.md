@@ -29,8 +29,8 @@ nxcspray all 10.1.45.200 -u e.hills -p 'Il0vemyj0b2025!'
 ```
 <img width="1315" height="365" alt="image" src="https://github.com/user-attachments/assets/65453924-98c5-44c1-975c-bfb40968ef88" />
 
-```
 
+```
 nxcspray all hosts.txt -u users.txt -p 'Spring2026!' --continue-on-success --jitter 2-5
 ```
 
