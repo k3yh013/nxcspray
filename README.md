@@ -1,4 +1,4 @@
-# nxcspray - NetExec (nxc) spraying / enumeration wrapper
+# nxcspray - NetExec (nxc) spraying
 Simple bash script to spray known credentials against multiple services with netexec (https://www.netexec.wiki/)
 
 # Installation
