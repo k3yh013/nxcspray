@@ -41,3 +41,5 @@ nxcspray smb 10.0.0.0/24 -u administrator -H aad3b...:31d6c... --local-auth --sa
 ```
 nxcspray smb dc01.corp.local -u svc -p Pass1 -d corp.local -- -M ntdsutil
 ```
+
+CREDIT: Forked from NTHSec/nxcspray
